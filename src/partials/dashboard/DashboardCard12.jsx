@@ -4,14 +4,14 @@ function DashboardCard12() {
   return (
     <div className="col-span-full xl:col-span-6 bg-white shadow-lg rounded-sm border border-slate-200">
       <header className="px-5 py-4 border-b border-slate-100">
-        <h2 className="font-semibold text-slate-800">Recent Activity</h2>
+        <h2 className="font-semibold text-slate-800">Atividade recente</h2>
       </header>
       <div className="p-3">
 
         {/* Card content */}
         {/* "Today" group */}
         <div>
-          <header className="text-xs uppercase text-slate-400 bg-slate-50 rounded-sm font-semibold p-2">Today</header>
+          <header className="text-xs uppercase text-slate-400 bg-slate-50 rounded-sm font-semibold p-2">Hoje</header>
           <ul className="my-1">
             {/* Item */}
             <li className="flex px-2">
@@ -22,9 +22,9 @@ function DashboardCard12() {
               </div>
               <div className="grow flex items-center border-b border-slate-100 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Nick Mark</a> mentioned <a className="font-medium text-slate-800" href="#0">Sara Smith</a> in a new post</div>
+                  <div className="self-center"><a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Nick Mark</a> mencionado <a className="font-medium text-slate-800" href="#0">Sara Smith</a> em um novo post</div>
                   <div className="shrink-0 self-end ml-2">
-                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">View<span className="hidden sm:inline"> -&gt;</span></a>
+                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">Ver<span className="hidden sm:inline"> -&gt;</span></a>
                   </div>
                 </div>
               </div>
@@ -38,9 +38,9 @@ function DashboardCard12() {
               </div>
               <div className="grow flex items-center border-b border-slate-100 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center">The post <a className="font-medium text-slate-800" href="#0">Post Name</a> was removed by <a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Nick Mark</a></div>
+                  <div className="self-center">The post <a className="font-medium text-slate-800" href="#0">Post Name</a> foi removido por <a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Nick Mark</a></div>
                   <div className="shrink-0 self-end ml-2">
-                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">View<span className="hidden sm:inline"> -&gt;</span></a>
+                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">Ver<span className="hidden sm:inline"> -&gt;</span></a>
                   </div>
                 </div>
               </div>
@@ -54,9 +54,9 @@ function DashboardCard12() {
               </div>
               <div className="grow flex items-center text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Patrick Sullivan</a> published a new <a className="font-medium text-slate-800" href="#0">post</a></div>
+                  <div className="self-center"><a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Patrick Sullivan</a> publicou um novo <a className="font-medium text-slate-800" href="#0">post</a></div>
                   <div className="shrink-0 self-end ml-2">
-                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">View<span className="hidden sm:inline"> -&gt;</span></a>
+                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">Ver<span className="hidden sm:inline"> -&gt;</span></a>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ function DashboardCard12() {
         </div>
         {/* "Yesterday" group */}
         <div>
-          <header className="text-xs uppercase text-slate-400 bg-slate-50 rounded-sm font-semibold p-2">Yesterday</header>
+          <header className="text-xs uppercase text-slate-400 bg-slate-50 rounded-sm font-semibold p-2">Ontem</header>
           <ul className="my-1">
             {/* Item */}
             <li className="flex px-2">
@@ -76,9 +76,9 @@ function DashboardCard12() {
               </div>
               <div className="grow flex items-center border-b border-slate-100 text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center"><a className="font-medium text-slate-800 hover:text-slate-900" href="#0">240+</a> users have subscribed to <a className="font-medium text-slate-800" href="#0">Newsletter #1</a></div>
+                  <div className="self-center"><a className="font-medium text-slate-800 hover:text-slate-900" href="#0">240+</a> usuários se inscreveram <a className="font-medium text-slate-800" href="#0">Newsletter #1</a></div>
                   <div className="shrink-0 self-end ml-2">
-                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">View<span className="hidden sm:inline"> -&gt;</span></a>
+                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">Ver<span className="hidden sm:inline"> -&gt;</span></a>
                   </div>
                 </div>
               </div>
@@ -92,9 +92,9 @@ function DashboardCard12() {
               </div>
               <div className="grow flex items-center text-sm py-2">
                 <div className="grow flex justify-between">
-                  <div className="self-center">The post <a className="font-medium text-slate-800" href="#0">Post Name</a> was suspended by <a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Nick Mark</a></div>
+                  <div className="self-center">The post <a className="font-medium text-slate-800" href="#0">Post Name</a> foi suspenso por <a className="font-medium text-slate-800 hover:text-slate-900" href="#0">Nick Mark</a></div>
                   <div className="shrink-0 self-end ml-2">
-                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">View<span className="hidden sm:inline"> -&gt;</span></a>
+                    <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">Ver<span className="hidden sm:inline"> -&gt;</span></a>
                   </div>
                 </div>
               </div>

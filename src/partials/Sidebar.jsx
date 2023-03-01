@@ -391,7 +391,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Community
+                              Comunidade
                             </span>
                           </div>
                           {/* Icon */}
@@ -530,7 +530,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Finance
+                              Financeiro
                             </span>
                           </div>
                           {/* Icon */}
@@ -614,7 +614,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Job Board
+                              Quadro de tarefas
                             </span>
                           </div>
                           {/* Icon */}
@@ -758,7 +758,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                         />
                       </svg>
                       <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                        Messages
+                        Mensagens
                       </span>
                     </div>
                     {/* Badge */}
@@ -810,7 +810,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                       />
                     </svg>
                     <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Calendar
+                      Calendário
                     </span>
                   </div>
                 </NavLink>
@@ -836,7 +836,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                       />
                     </svg>
                     <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Campaigns
+                      Campanhas
                     </span>
                   </div>
                 </NavLink>
@@ -877,7 +877,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Settings
+                              Configurações
                             </span>
                           </div>
                           {/* Icon */}
@@ -1006,7 +1006,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Utility
+                              Utilitários
                             </span>
                           </div>
                           {/* Icon */}
@@ -1099,7 +1099,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
               <span className="hidden lg:block lg:sidebar-expanded:hidden 2xl:hidden text-center w-6" aria-hidden="true">
                 •••
               </span>
-              <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">More</span>
+              <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">Mais</span>
             </h3>
             <ul className="mt-3">
               {/* Authentication */}
@@ -1122,7 +1122,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               <path className="fill-current text-slate-400" d="M15 12L8 6v5H0v2h8v5z" />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Authentication
+                              Autenticação
                             </span>
                           </div>
                           {/* Icon */}
@@ -1138,21 +1138,21 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                           <li className="mb-1 last:mb-0">
                             <NavLink end to="/" className="block text-slate-400 hover:text-slate-200 transition duration-150 truncate">
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Sign in
+                                Logar na conta
                               </span>
                             </NavLink>
                           </li>
                           <li className="mb-1 last:mb-0">
                             <NavLink end to="/" className="block text-slate-400 hover:text-slate-200 transition duration-150 truncate">
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Sign up
+                                Cadastrar-se
                               </span>
                             </NavLink>
                           </li>
                           <li className="mb-1 last:mb-0">
                             <NavLink end to="/" className="block text-slate-400 hover:text-slate-200 transition duration-150 truncate">
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Reset Password
+                                Resetar Senha
                               </span>
                             </NavLink>
                           </li>
@@ -1267,7 +1267,7 @@ function Sidebar({ sidebarOpen, setSidebarOpen }) {
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Components
+                              Componentes
                             </span>
                           </div>
                           {/* Icon */}
